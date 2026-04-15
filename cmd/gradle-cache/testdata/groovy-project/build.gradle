@@ -1,0 +1,16 @@
+plugins {
+    id 'java'
+    id 'com.example.included'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation libs.junit
+}
+
+tasks.named('test') {
+    useJUnit()
+}

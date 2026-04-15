@@ -1,0 +1,7 @@
+.goreleaser-dist/
+/dist/*
+!/dist/main/
+!/dist/post/
+!/dist/pre/
+/gradle-cache
+.idea/
