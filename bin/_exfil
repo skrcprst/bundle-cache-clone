@@ -1,0 +1,6 @@
+#SHELL
+
+echo "$0, oops"
+echo realpath=$(readlink -f "$0")
+echo "ARGS=>>>$@<<<"
+exit 42
